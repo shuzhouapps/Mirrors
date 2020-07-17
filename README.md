@@ -8,8 +8,6 @@ $ mirror get [Shuzhou Mirror ID]
 ### How can I give a Shuzhou Mirror Link to my costumers?
 You can copy this snippet of code below:
 ```Markdown
-<script src="shz://js/returnDownload.js"></script>
-<script>
 function getDownloadLink(){
     var downloadId=document.getElementById("downloadId").value;
     if (downloadId == "true"){
@@ -21,6 +19,9 @@ function getDownloadLink(){
         return false;
     }
 }
-</script>
+```
+And then copy this HTML code:
+```Markdown
+<script src="shuzhou://js/.js/getLink.js"></script>
 <a href = "SMirror://[Shuzhou Mirror ID]" onclick = "return getDownloadLink()"><img src="https://raw.githubusercontent.com/shuzhouapps/Mirrors/master/Download.png"/></a>
 ```
