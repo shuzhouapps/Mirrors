@@ -1,3 +1,6 @@
+```Markdown
+Use the family version of Shuzhou Mirrors at family.centre, fc.io, family.edu.ce, family.io etc.
+```
 # Shuzhou Mirrors
 All of the useful app mirrors come in Shuzhou Mirrors, either payed or open-sourced.
 ### How to copy an app from Shuzhou Mirrors?
